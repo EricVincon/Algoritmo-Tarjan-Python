@@ -17,6 +17,27 @@ En el presente repositorio se presentará el algoritmo de Tarjan (1970) el cual 
  
  1c- Exploramos los nodos adyacentes al nodo inicial, seteamos sus valores (visitado y enlace) y agregamos a la pila, siguiendo la búsqueda DFS en profundidad.
 
+  #IMPLEMENTACIÓN
+
+  El algoritmo esta implementado mediente un ´TAD´ que modela la estructura de un grafo usando listas de adyacencias.
+
+  #COMPLEJIDAD
+
+  Recorrido en profundidad (DFS): El algoritmo de Tarjan realiza un recorrido en profundidad ( DFS) del grafo. Un recorrido DFS en un grafo 
+  representado mediante listas de adyacencia tiene una complejidad de O(V+E) porque visita cada vértice y cada arista exactamente una vez.
+  
+  Operaciones adicionales: Además del recorrido DFS, el algoritmo de Tarjan realiza algunas operaciones adicionales para mantener información sobre los 
+  índices de descubrimiento, los valores de enlace y el manejo de una pila para identificar los componentes fuertemente conexos. Estas operaciones 
+  adicionales (actualización de índices, manejo de la pila) se realizan en tiempo constante para cada vértice y cada arista, por lo que no aumentan la 
+  complejidad asintótica.
+
+  Entonces podemos decir que dado que cada arista y cada vértice se procesan exactamente una vez y las operaciones adicionales son de tiempo constante, 
+  la complejidad total del algoritmo de Tarjan es O(V+E).
+
+
+  
+
+
 
 
 
