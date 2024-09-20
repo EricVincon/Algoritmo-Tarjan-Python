@@ -19,7 +19,7 @@ En el presente repositorio se presentará el algoritmo de Tarjan (1970) el cual 
 
   #IMPLEMENTACIÓN
 
-  El algoritmo esta implementado mediente un ´TAD´ que modela la estructura de un grafo usando listas de adyacencias.
+  El algoritmo esta implementado mediente un ´TAD´ que modela la estructura de un grafo dirigido usando listas de adyacencias.
 
   #COMPLEJIDAD
 
